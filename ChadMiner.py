@@ -21,9 +21,8 @@ import threading
 # JSON-HTTP RPC Configuration
 # This will be particular to your local ~/.bitcoin/bitcoin.conf
 
-rpcuser='marshworld6'
-rpcpassword='3475f8fbcf855188e34e32cb25114594$f848867493fc6747761ff782d70adb1fa8cf4f8e26b8cf7402df831'
-#rpcpassword='Testing123'
+rpcuser='UerName'
+rpcpassword='Testing123'
 
 RPC_URL = AuthServiceProxy("http://'marshworld6':'3475f8fbcf855188e34e32cb25114594$f848867493fc6747761ff782d70adb1fa8cf4f8e26b8cf7402df831'@127.0.0.1:8332")
 #block_chain_data = RPC_URL.getblockchaininfo() to test the function
@@ -446,4 +445,4 @@ if __name__ == "__main__":
         print("Usage: {:s} <coinbase message> <block reward address>".format(sys.argv[0]))
         sys.exit(1)
         
-    standalone_miner("Submit".encode().hex(), "1P1d87vcNxM6RwV1Qn4soykvFqQTPpEVc1")
+    standalone_miner("Submit".encode().hex(), "Wallet")
